@@ -1,12 +1,7 @@
-{
-    "AWSTemplateFormatVersion": "2010-09-09T00:00:00.000Z",
-    "Description": "Create a S3 bucket with Default Properties",
-    "Resources": {
-        "HelloBucket1": {
-            "Type": "AWS::S3::Bucket"
-        },
-        "HelloBucket2": {
-            "Type": "AWS::S3::Bucket"
-        }
-    }
-}
+AWSTemplateFormatVersion: '2010-09-09T00:00:00.000Z'
+Description: Create a S3 bucket with Default Properties
+Resources:
+  HelloBucket1:
+    Type: AWS::S3::Bucket
+  HelloBucket2:
+    Type: AWS::S3::Bucket
